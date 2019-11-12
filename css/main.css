@@ -1,0 +1,29 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+- *Typefaces:* `sans-serif`
+- *Text sizes:* `1.5rem` (other than the default media query sizes)
+- *Margins:* `.75em` (other than the default media query margins)
+- *Image width:* `50px`
+- *Expected class names:* `.cards`, `.card`, `.card-img`, `.card-body`
+- *Standard media query widths:* `25em`, `38em`, `60em`, `90em`
+- Use the standard font-sizes, line-heights & margins
