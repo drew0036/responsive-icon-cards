@@ -11,19 +11,55 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
-  line-height: normal;
+  line-height: 1.2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.card-body {
+  margin: .75em;
+}
+
+.card-img {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: .75em 0 0 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 .75em 0;
+}
+
+@media only screen and (min-width: 25em) {
 
 
-- *Typefaces:* `sans-serif`
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
 - *Text sizes:* `1.5rem` (other than the default media query sizes)
 - *Margins:* `.75em` (other than the default media query margins)
-- *Image width:* `50px`
-- *Expected class names:* `.cards`, `.card`, `.card-img`, `.card-body`
-- *Standard media query widths:* `25em`, `38em`, `60em`, `90em`
 - Use the standard font-sizes, line-heights & margins
